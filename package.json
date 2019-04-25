@@ -1,19 +1,14 @@
 {
   "name": "egg-verify-code",
-  "version": "1.0.1",
-  "description": "egg验证码",
+  "version": "1.0.0",
+  "description": "egg 验证码",
   "eggPlugin": {
-    "name": "verifyCode",
-    "dependencies": [
-      "canvas"
-    ]
+    "name": "verifyCode"
   },
   "keywords": [
     "egg",
     "eggPlugin",
     "egg-plugin",
-    "canvas",
-    "node-canvas",
     "验证码"
   ],
   "dependencies": {
@@ -59,6 +54,6 @@
     "url": "https://github.com/pc1995/egg-verify-code/issues"
   },
   "homepage": "https://github.com/pc1995/egg-verify-code#readme",
-  "author": "dxpanchao@gmail.com",
+  "author": "panchao <dxpanchao@gmail.com>",
   "license": "MIT"
 }
