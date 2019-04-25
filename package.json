@@ -11,7 +11,10 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "canvas",
+    "node-canvas",
+    "验证码"
   ],
   "dependencies": {
     "canvas": "^2.4.1"
