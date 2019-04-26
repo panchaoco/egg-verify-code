@@ -11,7 +11,7 @@ module.exports = app => {
         const { verifyCode } = conf;
         config = verifyCode;
       }
-      return eggVerifyCode.generateCode();
+      return eggVerifyCode.generateCode(config);
     },
   };
 };
