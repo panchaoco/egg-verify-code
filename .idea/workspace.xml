@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb554ec-aa3a-49fc-93f2-8e8b37e29989" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.zh_CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.zh_CN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/verify.code.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/verify.code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="bcb554ec-aa3a-49fc-93f2-8e8b37e29989" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -35,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.zh_CN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="728">
+              <first_editor relative-caret-position="951">
                 <caret line="106" column="57" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
               </first_editor>
               <second_editor />
@@ -47,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/verify.code.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="76">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -100,15 +96,15 @@
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/utils.js" />
+        <option value="$PROJECT_DIR$/README.zh_CN.md" />
         <option value="$PROJECT_DIR$/lib/verify.code.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.zh_CN.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1921" />
-    <option name="y" value="69" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1930" />
+    <option name="y" value="28" />
     <option name="width" value="1920" />
     <option name="height" value="1002" />
   </component>
@@ -217,18 +213,18 @@
       <option name="presentableId" value="Default" />
       <updated>1556181269947</updated>
       <workItem from="1556181271525" duration="12828000" />
-      <workItem from="1556438922464" duration="6750000" />
+      <workItem from="1556438922464" duration="8335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19578000" />
+    <option name="totallyTimeSpent" value="21163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1921" y="69" width="1920" height="1002" extended-state="0" />
+    <frame x="1930" y="28" width="1920" height="1002" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.06319115" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.06319115" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5032787" side_tool="true" weight="0.24960506" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -242,7 +238,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34945056" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34945056" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,20 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/verify.code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -355,10 +337,24 @@
     <entry file="file://$PROJECT_DIR$/README.zh_CN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="728">
+          <first_editor relative-caret-position="951">
             <caret line="106" column="57" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/verify.code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
