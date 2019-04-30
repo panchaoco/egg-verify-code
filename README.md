@@ -45,14 +45,48 @@ exports.verifyCode = {
 ```js
 // {app_root}/config/config.default.js
 exports.verifyCode = {
+  canvas: {
+    width: 100,
+    height: 30
+  },
+  font: '24px "微软雅黑"'
 };
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
+```js
+// {app_root}/service/verify.js
 
-<!-- example here -->
+async generate() {
+  const { app, ctx } = this;
+  const verify = app.verifyCode.generate();
+  ctx.session.code = verify.code;
+  return verify.image
+}
+```
+
+```js
+// {app_root}/controller/verify.js
+
+async verifyCode() {
+  const { ctx, service } = this
+  const image = await service.user.generate()
+  ctx.body = {
+    image: image
+  }
+}
+
+```
+```js
+// {app_root}/router.js
+
+module.exports = app => {
+  const { controller, router } = app;
+  router.get('/v1/api/verify', app.controller.verify.verifyCode);
+}
+```
 
 ## Questions & Suggestions
 

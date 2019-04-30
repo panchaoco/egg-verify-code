@@ -8,7 +8,9 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "验证码",
+    "egg验证码"
   ],
   "dependencies": {
     "canvas": "^2.4.1"
