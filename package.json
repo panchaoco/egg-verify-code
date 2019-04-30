@@ -1,6 +1,6 @@
 {
   "name": "egg-verify-code",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "egg验证码",
   "eggPlugin": {
     "name": "verifyCode"
