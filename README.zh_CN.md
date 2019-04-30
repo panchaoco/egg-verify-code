@@ -26,6 +26,10 @@ Description here.
 
 ## 依赖说明
 
+该插件依赖于node-canvas包实现
+
+> npm install canvas, 但是这个包不用你安装，再npm install egg-verify-code 时会自动安装
+
 ### 依赖的 egg 版本
 
 egg-verify-code 版本 | egg 1.x
@@ -53,11 +57,42 @@ exports.verifyCode = {
 };
 ```
 
+
 ## 使用场景
 
-- Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
-尽可能描述详细。
-- How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+- 在项目中，登录时需要验证码，百度和谷歌之后，发现大家常用的是svg-captcha, 响应给前端的类型必须为image/xml+svg,并直接res了一张图片，而我想以base64的方式返回给前端，返回内容为json对象，显然svg-captcha无法迎合我的需求，因此有了这个小插件。
+
+- 使用实例如下
+
+```js
+async generate() {
+  const { app, ctx } = this;
+  const verify = app.verifyCode.generate();
+  ctx.session.code = verify.code;
+  return verify.image
+}
+```
+
+```js
+// {app_root}/controller/verify.js
+
+async verifyCode() {
+  const { ctx, service } = this
+  const image = await service.user.generate()
+  ctx.body = {
+    image: image
+  }
+}
+```
+
+```js
+// {app_root}/router.js
+
+module.exports = app => {
+  const { controller, router } = app;
+  router.get('/v1/api/verify', app.controller.verify.verifyCode);
+}
+```
 
 ## 详细配置
 
@@ -69,7 +104,7 @@ exports.verifyCode = {
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
+请到 [egg issues](https://github.com/pc1995/egg-verify-code/issues) 异步交流。
 
 ## License
 
